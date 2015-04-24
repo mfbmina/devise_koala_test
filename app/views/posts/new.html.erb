@@ -1,0 +1,5 @@
+<%= form_tag(:posts, method: "post") do %>
+  <%= label_tag(:message, "Message:") %>
+  <%= text_field_tag(:message) %>
+  <%= submit_tag("post") %>
+<% end %>
